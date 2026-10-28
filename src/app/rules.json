@@ -1,0 +1,157 @@
+[
+  {
+    "intent": "deals",
+    "keywords": [
+      "deal",
+      "deals",
+      "package",
+      "packages",
+      "discount"
+    ],
+    "reply": "EventKit packages — one rental day:\n\nSmall Gathering: Rs 8,000\n• 20 chairs\n• 4 tables\n• 1 speaker\n\nCelebration Package: Rs 15,000\n• 40 chairs\n• 6 tables\n• 2 speakers\n• 4 LED lights\n\nPackage prices cover equipment rental only. Delivery and setup cost Rs 2,000 within our delivery area. A refundable security deposit of Rs 5,000 is collected separately."
+  },
+  {
+    "intent": "catalogue",
+    "keywords": [
+      "menu",
+      "catalogue",
+      "catalog",
+      "equipment",
+      "items",
+      "prices",
+      "price",
+      "rates",
+      "rent",
+      "rental"
+    ],
+    "reply": "EventKit equipment rates — per rental day:\n\n• Chair: Rs 150 each\n• Table: Rs 800 each\n• Speaker: Rs 2,500 each\n• LED light: Rs 500 each\n• Backdrop stand: Rs 3,000 each\n\nOne rental day covers up to 24 hours from the agreed handover time. Equipment rental total = daily rate × quantity × rental days.\n\nDelivery and setup cost Rs 2,000 within our delivery area. A refundable security deposit of Rs 5,000 is separate."
+  },
+  {
+    "intent": "delivery",
+    "keywords": [
+      "delivery",
+      "deliver",
+      "transport",
+      "pickup",
+      "collection"
+    ],
+    "reply": "Delivery, basic setup and collection cost Rs 2,000 in total for locations within 10 km of our demo office in Sargodha.\n\nDelivery slots are available from 9:00 a.m. to 8:00 p.m., Monday to Saturday. Agree your delivery and collection times before confirming the booking.\n\nCustomer pickup is free during office hours. Locations beyond 10 km require a separate quotation."
+  },
+  {
+    "intent": "timings",
+    "keywords": [
+      "timing",
+      "timings",
+      "hours",
+      "open",
+      "opening",
+      "close",
+      "closing"
+    ],
+    "reply": "EventKit office hours:\n\nMonday–Saturday: 9:00 a.m.–8:00 p.m.\nSunday: Closed\n\nAll times are Pakistan Standard Time. Sunday handovers or collections must be arranged and confirmed in advance."
+  },
+  {
+    "intent": "location",
+    "keywords": [
+      "location",
+      "address",
+      "located",
+      "directions",
+      "office",
+      "where"
+    ],
+    "reply": "Demo address:\nEventKit, Demo Shop 12, Sample Event Plaza, University Road, Sargodha, Pakistan.\n\nThis is a fictional address for the project demonstration. Customer pickup and returns take place at the demo office during opening hours."
+  },
+  {
+    "intent": "payment",
+    "keywords": [
+      "payment",
+      "payments",
+      "pay",
+      "cash",
+      "bank",
+      "easypaisa",
+      "jazzcash"
+    ],
+    "reply": "Our demo payment methods are cash, bank transfer, Easypaisa and JazzCash.\n\nA 30% advance on the equipment rental and agreed delivery/setup charges is required to confirm a booking. The remaining 70% and a separate refundable security deposit of Rs 5,000 are due before handover.\n\nNo real payments are accepted through this demonstration chatbot."
+  },
+  {
+    "intent": "booking",
+    "keywords": [
+      "book",
+      "booking",
+      "reserve",
+      "reservation",
+      "order",
+      "hire"
+    ],
+    "reply": "To request an EventKit booking, prepare:\n\n1. Your name and contact number.\n2. Event date and venue.\n3. Required equipment and quantities.\n4. Rental duration.\n5. Delivery or customer-pickup preference.\n\nOur team must confirm availability and the final quotation before payment. A booking is confirmed only after the required advance is received and a confirmation is issued.\n\nThis chatbot provides guidance only; it does not submit or reserve bookings."
+  },
+  {
+    "intent": "availability",
+    "keywords": [
+      "availability",
+      "available",
+      "stock",
+      "quantity",
+      "quantities"
+    ],
+    "reply": "Equipment availability depends on your event dates, requested quantities and existing bookings.\n\nThis rule-based demonstration has no live inventory connection. Provide your event date, equipment list, quantities and rental duration to the team for an availability check. Displayed items are not a guarantee of available stock."
+  },
+  {
+    "intent": "deposit",
+    "keywords": [
+      "deposit",
+      "security"
+    ],
+    "reply": "The refundable security deposit is Rs 5,000 per booking and is payable before equipment handover.\n\nIt is separate from rental and delivery charges. The deposit is returned within two working days after collection and inspection, minus any agreed charges for damage, missing items or late return. Any deductions are itemised."
+  },
+  {
+    "intent": "cancellation",
+    "keywords": [
+      "cancel",
+      "cancellation",
+      "refund"
+    ],
+    "reply": "Demo cancellation policy:\n\n• At least 72 hours before the agreed handover: full refund of the booking advance.\n• Less than 72 hours before handover: the 30% booking advance is non-refundable.\n• If EventKit cancels before handover: all amounts paid are refunded.\n\nAny balance or security deposit paid for a booking cancelled before handover is refunded in full. Approved refunds are processed within five working days."
+  },
+  {
+    "intent": "contact",
+    "keywords": [
+      "contact",
+      "phone",
+      "number",
+      "call",
+      "whatsapp"
+    ],
+    "reply": "Demo contact number: 0300-0000000\n\nPhone and WhatsApp support hours: Monday–Saturday, 9:00 a.m.–8:00 p.m., Pakistan Standard Time.\n\nThis number is a placeholder for the project demonstration. No real booking or payment should be sent to it."
+  },
+  {
+    "intent": "thanks",
+    "keywords": [
+      "thanks",
+      "thank",
+      "thankyou"
+    ],
+    "reply": "You're welcome! I can also help with equipment rates, packages, delivery and booking guidance."
+  },
+  {
+    "intent": "goodbye",
+    "keywords": [
+      "bye",
+      "goodbye",
+      "farewell"
+    ],
+    "reply": "Goodbye! Thank you for exploring EventKit. We hope your next event is a memorable one."
+  },
+  {
+    "intent": "greeting",
+    "keywords": [
+      "hi",
+      "hello",
+      "hey",
+      "salam"
+    ],
+    "reply": "Hello! Welcome to EventKit. I can help with event equipment, rental prices, packages, delivery and booking guidance. How can I help you today?"
+  }
+]
